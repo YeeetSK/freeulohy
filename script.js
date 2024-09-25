@@ -7,23 +7,9 @@ let isFullscreen = false; // Track whether an image is already in fullscreen mod
 
 // Define the homework images data structure
 const homeworkImages = {
-  '2024-09-24': {
-    'sj': [],
-    'matika': [],
-    'dejepis': [],
-    'technika': [],
-    'informatika': [],
-    'obcianka': [],
-    'aj': ['ajpz2.jpg'],
-    'fyzika': [],
-    'vv': [],
-    'chemia': [],
-    'biologia': [],
-    'geografia': [],
-  },
   '2024-09-25': {
-    'sj': ['sj.jpg', 'ajpz2.jpg'],
-    'matika': [],
+    'sj': [],
+    'matika': ['matika-domaca.jpg'],
     'dejepis': [],
     'technika': [],
     'informatika': [],
