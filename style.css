@@ -9,6 +9,11 @@ body {
   gap: 20px; /* Add space between elements */
 }
 
+p {
+  color: white;
+  text-align: center;
+}
+
 #image-container {
   display: flex;
   flex-wrap: wrap;

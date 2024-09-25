@@ -58,7 +58,7 @@ function getHomeworkImages(date, className) {
   imageContainer.innerHTML = ''; // Clear existing images
   if (!homeworkImages[date]) {
     const noImagesMessage = document.createElement('p');
-    noImagesMessage.textContent = `No images added for this day`;
+    noImagesMessage.textContent = `Žiadné domáce neboli pridané na tento deň`;
     imageContainer.appendChild(noImagesMessage);
   } else {
     const images = homeworkImages[date][className];
@@ -75,7 +75,7 @@ function getHomeworkImages(date, className) {
       });
       addImageClickEventListeners();
     } else {
-      console.log(`No images found for ${date} ${className}`);
+      console.log(`Žiadné domáce neboli pridané na tento deň ${date} ${className}`);
     }
   }
 }
